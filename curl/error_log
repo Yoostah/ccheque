@@ -1,0 +1,78 @@
+[06-Nov-2017 17:45:05 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:45:05 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:45:05 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:45:05 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:45:05 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:45:05 America/Chicago] PHP Warning:  include(): Failed opening 'funcoes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:45:05 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:50:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:50:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:50:02 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:50:02 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:50:02 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:50:02 America/Chicago] PHP Warning:  include(): Failed opening 'funcoes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:50:02 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:54:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:54:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:54:01 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:54:01 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:54:01 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:54:01 America/Chicago] PHP Warning:  include(): Failed opening 'funcoes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:54:01 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:55:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:55:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:55:01 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:55:01 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:55:01 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:55:01 America/Chicago] PHP Warning:  include(): Failed opening 'funcoes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:55:01 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:56:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:56:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:56:02 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:56:02 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:56:02 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:56:02 America/Chicago] PHP Warning:  include(): Failed opening 'funcoes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:56:02 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(): Failed opening 'funcoes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:57:02 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:57:02 America/Chicago] PHP Warning:  include(): Failed opening 'funcoes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:57:02 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:58:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:58:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:58:01 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:58:01 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:58:01 America/Chicago] PHP Warning:  include(funcoes.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:58:01 America/Chicago] PHP Warning:  include(): Failed opening 'funcoes.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 17:58:01 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:58:13 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:58:13 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:58:13 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:58:13 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:59:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:59:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:59:01 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:59:01 America/Chicago] PHP Fatal error:  Call to undefined function _conectaDB() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 5
+[06-Nov-2017 17:59:27 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:59:27 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 17:59:27 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 18:00:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 18:00:02 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 18:00:02 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 18:01:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 18:01:01 America/Chicago] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 18:01:01 America/Chicago] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 2
+[06-Nov-2017 18:02:01 America/Chicago] PHP Fatal error:  Call to undefined function _conectaBD() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 18:03:02 America/Chicago] PHP Fatal error:  Call to undefined function _conectaBD() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 18:04:01 America/Chicago] PHP Fatal error:  Call to undefined function _conectaBD() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 18:05:01 America/Chicago] PHP Fatal error:  Call to undefined function _conectaBD() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3
+[06-Nov-2017 18:06:01 America/Chicago] PHP Fatal error:  Call to undefined function _conectaBD() in /home/yoost605/public_html/ccheque/curl/checa_compensado.php on line 3

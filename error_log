@@ -1,0 +1,79 @@
+[06-Nov-2017 16:20:10 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/yoost605/public_html/ccheque/cadCheque.php on line 155
+[06-Nov-2017 16:20:20 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/yoost605/public_html/ccheque/consCheque.php on line 21
+[06-Nov-2017 16:20:28 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/yoost605/public_html/ccheque/cadCheque.php on line 155
+[06-Nov-2017 16:53:24 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/yoost605/public_html/ccheque/cadCheque.php on line 155
+[06-Nov-2017 16:53:42 America/Chicago] PHP Fatal error:  Call to a member function prepare() on null in /home/yoost605/public_html/ccheque/consFeriado.php on line 19
+[06-Nov-2017 16:55:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yoost605/public_html/ccheque/_scripts/_js.php:3) in /home/yoost605/public_html/ccheque/index.php on line 3
+[06-Nov-2017 16:57:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 246
+[06-Nov-2017 17:34:25 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 246
+[06-Nov-2017 17:41:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 246
+[06-Nov-2017 17:53:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[06-Nov-2017 17:54:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yoost605/public_html/ccheque/_scripts/_js.php:3) in /home/yoost605/public_html/ccheque/index.php on line 3
+[06-Nov-2017 17:54:43 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 246
+[06-Nov-2017 18:02:50 America/Chicago] PHP Warning:  include(checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[06-Nov-2017 18:02:50 America/Chicago] PHP Warning:  include(checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[06-Nov-2017 18:02:50 America/Chicago] PHP Warning:  include(): Failed opening 'checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[06-Nov-2017 18:07:01 America/Chicago] PHP Warning:  include(/curl/checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[06-Nov-2017 18:07:01 America/Chicago] PHP Warning:  include(): Failed opening '/curl/checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[06-Nov-2017 18:10:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yoost605/public_html/ccheque/_scripts/_js.php:3) in /home/yoost605/public_html/ccheque/index.php on line 3
+[06-Nov-2017 18:12:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yoost605/public_html/ccheque/main.php:83) in /home/yoost605/public_html/ccheque/index.php on line 3
+[06-Nov-2017 18:13:04 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yoost605/public_html/ccheque/main.php:83) in /home/yoost605/public_html/ccheque/index.php on line 3
+[06-Nov-2017 18:15:18 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[06-Nov-2017 18:15:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[06-Nov-2017 18:15:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yoost605/public_html/ccheque/main.php:83) in /home/yoost605/public_html/ccheque/index.php on line 3
+[06-Nov-2017 18:17:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yoost605/public_html/ccheque/main.php:83) in /home/yoost605/public_html/ccheque/index.php on line 3
+[06-Nov-2017 18:18:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yoost605/public_html/ccheque/main.php:83) in /home/yoost605/public_html/ccheque/index.php on line 3
+[06-Nov-2017 18:18:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 246
+[06-Nov-2017 18:18:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[06-Nov-2017 19:22:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[07-Nov-2017 09:22:39 America/Chicago] PHP Warning:  include(/curl/checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:22:39 America/Chicago] PHP Warning:  include(): Failed opening '/curl/checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:27:43 America/Chicago] PHP Warning:  include(/curl/checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:27:43 America/Chicago] PHP Warning:  include(): Failed opening '/curl/checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:01 America/Chicago] PHP Warning:  include(/curl/checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:01 America/Chicago] PHP Warning:  include(): Failed opening '/curl/checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:13 America/Chicago] PHP Warning:  include(\curl\checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:13 America/Chicago] PHP Warning:  include(\curl\checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:13 America/Chicago] PHP Warning:  include(): Failed opening '\curl\checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:41 America/Chicago] PHP Warning:  include(//curl//checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:41 America/Chicago] PHP Warning:  include(): Failed opening '//curl//checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:50 America/Chicago] PHP Warning:  include(//curl/checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:32:50 America/Chicago] PHP Warning:  include(): Failed opening '//curl/checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:33:07 America/Chicago] PHP Warning:  include('/curl/checa_compensado'.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:33:07 America/Chicago] PHP Warning:  include('/curl/checa_compensado'.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:33:07 America/Chicago] PHP Warning:  include(): Failed opening ''/curl/checa_compensado'.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:33:36 America/Chicago] PHP Warning:  include(checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:33:36 America/Chicago] PHP Warning:  include(checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 09:33:36 America/Chicago] PHP Warning:  include(): Failed opening 'checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 13:14:43 America/Chicago] PHP Warning:  include(/curl/checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 13:14:43 America/Chicago] PHP Warning:  include(): Failed opening '/curl/checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 13:15:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[07-Nov-2017 13:16:39 America/Chicago] PHP Warning:  include(/curl/checa_compensado.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 13:16:39 America/Chicago] PHP Warning:  include(): Failed opening '/curl/checa_compensado.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 13:17:07 America/Chicago] PHP Warning:  include(&quot;/curl/checa_compensado&quot;.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 13:17:07 America/Chicago] PHP Warning:  include(&quot;/curl/checa_compensado&quot;.php): failed to open stream: No such file or directory in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 13:17:07 America/Chicago] PHP Warning:  include(): Failed opening '&quot;/curl/checa_compensado&quot;.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home/yoost605/public_html/ccheque/main.php on line 84
+[07-Nov-2017 13:19:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[07-Nov-2017 13:19:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[10-Nov-2017 20:38:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 246
+[26-Nov-2017 09:28:01 America/Chicago] PHP Fatal error:  Cannot redeclare _conectaBD() (previously declared in /home/yoost605/public_html/ccheque/funcoes.php:11) in /home/yoost605/public_html/ccheque/funcoes.php on line 18
+[26-Nov-2017 09:29:32 America/Chicago] PHP Fatal error:  Cannot redeclare _conectaBD() (previously declared in /home/yoost605/public_html/ccheque/funcoes.php:11) in /home/yoost605/public_html/ccheque/funcoes.php on line 18
+[26-Nov-2017 09:32:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[26-Nov-2017 09:35:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[26-Nov-2017 11:23:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[26-Nov-2017 11:25:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[26-Nov-2017 11:26:32 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[26-Nov-2017 11:26:33 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[28-Nov-2017 20:32:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[28-Nov-2017 20:32:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[28-Nov-2017 20:37:41 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[28-Nov-2017 20:40:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[28-Nov-2017 20:43:48 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[28-Nov-2017 20:45:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadFeriado.php on line 6
+[28-Nov-2017 20:45:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[03-Dec-2017 19:49:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[03-Dec-2017 19:51:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[12-Dec-2017 06:22:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[19-Dec-2017 09:45:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[19-Dec-2017 09:48:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244
+[19-Dec-2017 09:55:35 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/yoost605/public_html/ccheque/cadCheque.php on line 244

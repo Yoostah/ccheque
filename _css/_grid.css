@@ -1,0 +1,39 @@
+div {
+	margin: 1px 3px 1px 3px;	
+}
+
+p{
+	margin: 0px;
+	padding-left: 25px;
+}		
+.wrapper {
+  display: grid;
+}
+
+
+.box {
+  margin: 2px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 3fr 3fr;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+button{
+  width: 15%;
+}
+button#btnSim{
+  margin-top: 25px;
+}
