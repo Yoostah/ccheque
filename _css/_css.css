@@ -20,6 +20,18 @@ p{
 	text-align: center;
 }
 
+.panel-footer{
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+h4.bg-info.cadGrupoTotal{
+  padding: 5px;
+  text-align: center;
+}
 
 /* LOGIN */
 .login {
@@ -147,49 +159,60 @@ input.currency {
 /* Formatador do text area dos detalhes para tela pequena e grande */
 @media (max-width: 440px){
   button#btn_compensou{
-  font-size: 0px;
-}
+    font-size: 0px;
+  }
 }
 
 @media (max-width: 991px) {
 
-textarea#detalhes {
-  width: 690px;
-}
+  textarea#detalhes {
+    width: 690px;
+  }
 
 } 
 
 @media (max-width: 767px) {
 
-textarea#detalhes {
-  width: 660px;
-}
+  textarea#detalhes {
+    width: 660px;
+  }
 
 }
 
 @media (max-width: 375px) {
 
-textarea#detalhes {
-  width: 285px;
-}
+  textarea#detalhes {
+    width: 285px;
+  }
 
-button#btn_compensou {
-  font-size: 0px;
-}
+  button#btn_compensou {
+    font-size: 0px;
+  }
 }
 
 @media (max-width: 320px) {
 
-textarea#detalhes {
-  width: 230px;
-}
+  textarea#detalhes {
+    width: 230px;
+  }
 
 }
 @media (max-width: 360px) {
 
-textarea#detalhes {
-  width: 270px;
+  textarea#detalhes {
+    width: 270px;
+  }
 }
+
+
+/**CAD Grupo Cheque*/
+
+button.btn_add_rem_chq{
+  padding: 0px 6px;
+}
+
+.dica h5{
+  margin: 0px;
 }
 /*.exemplo2 input[type=radio], .exemplo2 input[type=checkbox]{
     display:none; /* Esconde os inputs */

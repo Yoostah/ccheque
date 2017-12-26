@@ -144,7 +144,7 @@
 					<div class="input-group">
 						
 						<span style="padding: 0px;" class="input-group-addon">
-                        	<img  id="logo" src="">
+                        	<img  id="logo" >
                         </span>
 						<select name="sel_banco" id="sel_banco" class="form-control" onchange="mostrarLogo()">
 							<option value="0" disabled selected>Escolha</option>

@@ -39,6 +39,18 @@ function simular(){
     }
 	return true;
 }
+function corrigirCadastro(){
+	document.precadastro.submit();
+	document.getElementById('cadastro').value = 1;
+
+}
+
+function aprovarCadastro(){
+	document.getElementById('cadastro').value = 2;
+	document.precadastro.submit();
+
+
+}
 
 function cadastrar(){
 
@@ -62,6 +74,11 @@ function cadastrar(){
 		document.getElementById('salvar').value = 1;
 		return simular();
 	}
+	document.getElementById('salvar').value = 1;
+	return true;
+}
+
+function cadastrarGrupo(){
 	document.getElementById('salvar').value = 1;
 	return true;
 }
