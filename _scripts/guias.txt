@@ -1,0 +1,132 @@
+function setGuiasNV(){
+
+	var guiasNV = document.getElementById('guiasNV');
+
+	guiasNV.value = "";
+	var i = 0;
+	while(document.getElementById('nCons'+i)){
+		guiasNV.value += document.getElementById('nCons'+i).value + ";";
+		guiasNV.value += document.getElementById('vCons'+i).value + ";";
+		i++;
+	}
+
+	var i = 0;
+	while(document.getElementById('n'+i)){
+		guiasNV.value += document.getElementById('n'+i).value + ";";
+		guiasNV.value += document.getElementById('v'+i).value + ";";
+		i++;
+	}
+	
+}
+
+var guias = [];
+var guiasHTML  ="";
+var j;
+var valorN = [];
+var valorV = [];
+
+function AdicionarGuia(){
+
+	var i =0;
+	while(document.getElementById("n"+i)){
+		valorN[i] = document.getElementById("n"+i).value;
+		valorV[i] = document.getElementById("v"+i).value;
+		i++;
+	}
+	var tamanhoGuias = guias.length;
+
+	for(j = 0 ; j <= tamanhoGuias ; j++ ){
+
+		if(valorN[j] == undefined)  valorN[j] = "";
+		if(valorV[j] == undefined)  valorV[j] = "";
+
+		guia =
+	    "<div class='form-group' style='display: inline-flex'>"+
+		    "<div class='cols-sm-12' style='display: inline-flex'>"+
+		        "<div class='input-group input-group-sm col-sm-6'>"+	        	
+					"<span class='input-group-addon' id='sizing-addon3' >Número do Documento</span>"+
+					"<input type='text' size='100' maxlength='20' class='form-control' id='n"+j+"'  value='"+valorN[j]+"'aria-describedby='sizing-addon' onChange='setGuiasNV()' required/>"+				
+			    "</div>"+
+			    "<div class='input-group input-group-sm col-sm-6'>"+	        	
+					"<span class='input-group-addon' id='sizing-addon3' >Valor</span>"+
+					"<input type='text' size='100' class='form-control' id='v"+j+"' value='"+valorV[j]+"' aria-describedby='sizing-addon' onChange='setGuiasNV()' required/>"+				
+			    "</div>"+
+			"</div>"+
+			"<a><span class='glyphicon glyphicon-minus-sign' onclick='RemoverGuia("+j+")'></span></a>"+
+		"</div>";
+
+		guias[j] = guia;
+		guiasHTML += guia;
+	}
+
+	var QGuias = document.getElementById("QTDGuias");
+
+	if(!QTDGuias.value == ""){
+		QTDGuiasValor = parseInt(QTDGuias.value, 10);
+		QTDGuiasValor ++;
+		QTDGuias.value = QTDGuiasValor;
+	}else
+		QTDGuias.value = 1;
+
+	
+
+
+	document.getElementById("divAdicionarGuias").innerHTML = guiasHTML;
+	guiasHTML ="";
+}
+
+
+function RemoverGuia(ID){
+
+	for(var k =0 ; k < guias.length; k++){
+		valorN[k] = document.getElementById("n"+k).value;
+		valorV[k] = document.getElementById("v"+k).value;
+	}
+
+	valorN.splice(ID,1); // Remove o elemento que tem ID no array
+	valorV.splice(ID,1); // Remove o elemento que tem ID no array
+	guias.splice(ID,1); // Remove o elemento que tem ID no array
+
+	for(i = 0 ; i < guias.length; i++ ){
+
+		guia = 
+		"<div class='form-group' style='display: inline-flex'>"+
+		    "<div class='cols-sm-12' style='display: inline-flex'>"+
+		        "<div class='input-group input-group-sm col-sm-6'>"+	        	
+					"<span class='input-group-addon' id='sizing-addon3' >Número do Documento</span>"+
+					"<input type='text' size='100' maxlength='20' class='form-control' id='n"+i+"' value='"+valorN[i]+"' aria-describedby='sizing-addon' required/>"+				
+			    "</div>"+
+			    "<div class='input-group input-group-sm col-sm-6'>"+	        	
+					"<span class='input-group-addon' id='sizing-addon3' >Valor</span>"+
+					"<input type='text' size='100' class='form-control' id='v"+i+"' value='"+valorV[i]+"' aria-describedby='sizing-addon' required/>"+				
+			    "</div>"+
+			"</div>"+
+			"<a><span class='glyphicon glyphicon-minus-sign' onclick='RemoverGuia("+i+")'></span></a>"+
+		"</div>";
+		guias[i] = guia;
+		guiasHTML += guia;
+	}
+
+	var QGuias = document.getElementById("QTDGuias");
+	QTDGuiasValor = parseInt(QTDGuias.value, 10);
+	QTDGuiasValor --;
+	QTDGuias.value = QTDGuiasValor;
+
+	document.getElementById("divAdicionarGuias").innerHTML = guiasHTML;
+	guiasHTML = "";
+}
+
+function RemoverGuiaCons(ID){
+
+	var node = document.getElementById(ID);
+
+	if (node.parentNode){
+	  node.parentNode.removeChild(node);
+	}
+
+	var QGuias = document.getElementById("QTDGuias");
+	QTDGuiasValor = parseInt(QTDGuias.value, 10);
+	QTDGuiasValor --;
+	QTDGuias.value = QTDGuiasValor;
+
+}
