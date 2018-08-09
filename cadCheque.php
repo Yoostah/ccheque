@@ -223,7 +223,7 @@
 				        <label for="taxa">Taxa:</label>
 				    <div class="input-group">				     	
 				     	<span class="input-group-addon">%</span>  	
-				      	<input type="number" class="form-control" name="taxa" id="taxa" placeholder="Taxa de Juros" step=".01" pattern="^\d+(?:\.\d{1,2})?$">  
+				      	<input type="number" class="form-control" name="taxa" id="taxa" placeholder="Taxa de Juros" onkeydown="javascript: return event.keyCode == 69 ? false : true" step=".01" pattern="^\d+(?:\.\d{1,2})?$">  
 				    </div>
 				</div>
 			</div> <!--<div for-row> -->
@@ -280,7 +280,7 @@
 			<div class="btn-toolbar pull-right col-md-3">
 				<button  style="width: 100%" id="btnSim" class="btn btn-danger pull-right" type="submit" onclick="return simular()">Simular Cheque</button><br><br>
 				<button  style="width: 100%" id= "btnCad" class="btn btn-warning pull-right" type="submit" onclick="return cadastrar()">Cadastrar Cheque</button><br><br>
-				<button  style="width: 100%" id= "btnCad" class="btn btn-info pull-right" formaction="main.php?func=cadGCheque">Cadastrar Grupo de Cheque</button>
+				<!--<button  style="width: 100%" id= "btnCad" class="btn btn-info pull-right" formaction="main.php?func=cadGCheque">Cadastrar Grupo de Cheque</button>-->
 			</div>	
 			
 		<input type="hidden" name="op" id="opcao" value="0">

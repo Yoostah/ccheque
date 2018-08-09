@@ -62,7 +62,7 @@
 					<td><?php echo $cheque['agencia'] ?></td>
 					<td><?php echo $cheque['conta_corrente'] ?></td>
 					<td><?php echo $cheque['num_cheque'] ?></td>
-					<td><?php echo 'R$'.number_format($cheque['valor'],2, ',', ' ') ?></td>
+					<td style="white-space: nowrap;"><?php echo 'R$'.number_format($cheque['valor'],2, ',', ' ') ?></td>
 					<td><?php echo floatval($cheque['taxa'])."%" ?></td>
 					<td><?php echo date("d/m/Y",strtotime($cheque['recebido_em'])) ?></td>
 					<td><?php echo date("d/m/Y",strtotime($cheque['bom_para'])) ?></td>

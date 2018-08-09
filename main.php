@@ -61,8 +61,8 @@ if (isset($_GET['func']) && empty($_GET['func']) == false) {
 					<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cadastro<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="main.php?func=cadCheque">Cheque</a></li>
-						<li><a href="main.php?func=cadGCheque">Grupo de Cheque</a></li>
-						<li><a href="#">Usuários</a></li>
+						<!--<li><a href="main.php?func=cadGCheque">Grupo de Cheque</a></li>-->
+						<!--<li><a href="#">Usuários</a></li>-->
 						<li role="separator" class="divider"></li>
 						<li><a href="main.php?func=cadFeriado">Feriados</a></li>
 						<li><a href="main.php?func=cadBanco">Bancos</a></li>
@@ -72,7 +72,8 @@ if (isset($_GET['func']) && empty($_GET['func']) == false) {
 					<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Consulta<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="main.php?func=consCheque">Cheque</a></li>
-						<li><a href="#">Usuários</a></li>
+						<li role="separator" class="divider"></li>
+					<!--	<li><a href="#">Usuários</a></li>-->
 						<li><a href="main.php?func=consFeriado">Feriados</a></li>
 						<li><a href="main.php?func=consBanco">Bancos</a></li>
 					</ul>	 
